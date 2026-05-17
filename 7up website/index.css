@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header{
+    background-color: rgb(0, 210, 198);
+    height: 114px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img{
+    height: 76px;
+    padding-left: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    gap: 20px;
+    text-decoration: none;
+    padding-left: 1050px;
+    
+    margin: solid white border 1px;
+    
+}
+
+
+.nav-font{
+    color: white;
+    font-family: "korolev-compressed", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.icon{
+    height: 30px;
+    padding: 0px;
+}
+
+
+.social-icons{
+    margin-right: 50px;
+}
+
+.container-1{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin-top: 1px;
+    cursor: default;
+   
+}
+
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+
+.baner-text1{
+  position: absolute;
+  color: white;
+  text-align: left;
+  margin-right: 1000px;
+  font-size: 4.8vw;
+  font-weight: 800;
+  font-family: "Fredoka", sans-serif;
+  line-height: 74px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  cursor: text;
+}
+
+
+.button-1{
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 80%;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 43px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "korolev-compressed", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.background-2{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    cursor: default;
+}
+
+
+.container-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.baner-text2{
+    position: absolute;
+    text-align: center;
+    font-family:"korolev-compressed", sans-serif; 
+    color: white;
+    border-radius: 100px;
+    width: 45%;
+    height: 150px;
+    background-color: rgba(10, 91, 43, 0.8);
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+
+.p-text1{
+    position: absolute;
+    margin-top: 0px;
+    color: white;
+    font-family:"korolev-compressed", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.a-text1{
+    position: absolute;
+    margin-top: 80px;
+    color: white;
+    font-family:"korolev", sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.background-3{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    cursor: default;
+}
+
+
+.container-3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.baner-text3{
+    position: absolute;
+    text-align: center;
+    font-family:"korolev-compressed", sans-serif; 
+    color: white;
+    border-radius: 100px;
+    width: 45%;
+    height: 150px;
+    background-color: rgba(10, 91, 43, 0.8);
+    font-size: 33px;
+    padding-top: 20px;
+}
+
+
+.p-text2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family:"korolev-compressed", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.button-2{
+    position: absolute;
+    margin-top: 80px;
+    color: white;
+    font-family:"korolev", sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.footer-data{
+    display: inline;
+    color: white;
+    font-family:"korolev", sans-serif;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+#footer{
+    height: 125px;
+    width: 100%;
+    background-color: #3e3e3e;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+
+#p-text3{
+    font-family:"korolev", sans-serif;
+    color: white;
+    font-size: 11px;
+    margin-top: 19px;
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
