@@ -1,0 +1,1844 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color: #121212;
+}
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    margin-top: 96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Spotify-Logo{
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+}
+
+
+.text-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 39%;
+
+    margin-top: 30px;
+}
+
+
+.email-label{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.email-input{
+    width: 315px;
+    height: 40px;
+    margin-top: 3px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    border-radius: 5px;
+
+    border: solid 1px #4c4a4a;
+    background-color: #121212;
+
+}
+
+
+.email-input:focus{
+    outline: none;
+}
+
+
+.email-input:hover{
+    border-color: white;
+    border-bottom-color: white;
+}
+
+
+.button-1{
+   margin-left: 39%;
+   width: 320px;
+   height: 50px;
+
+   border-radius: 50px;
+   border: 1px solid ;
+   background-color: #1ed760;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-size: 14.5px;
+
+   cursor: pointer;
+}
+
+
+.button-1:hover{
+    background-color: #3be477;
+
+    padding: 1px;
+}
+
+
+.or{
+    color: white;
+    margin-left: 49%;
+    margin-top: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 14.5px;
+}
+
+
+.button-2{
+   margin-left: 39%;
+   width: 320px;
+   height: 50px;
+   margin-top: 15px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.button-2-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 20px;
+}
+
+
+.phone-Icon{
+    width: 25px;
+    height: 25px;
+
+    margin-right: 17px;
+
+    background-color:#121212 ;
+}
+
+
+.button-2:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+.button-3{
+   margin-left: 39%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-3-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: white;
+
+}
+
+
+.Google-Icon{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    left: 20px ;
+
+    background-color:#121212 ;
+}
+
+
+.button-3:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+.button-4{
+   margin-left: 39%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-4-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.Facebook-Icon{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    left: 20px;
+    position: absolute;
+}
+
+
+.button-4:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+
+
+
+.button-5{
+   margin-left: 39%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+.button-5-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    
+}
+
+
+.Apple-Icone{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.button-5:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+.p-tag{
+   color: #d0c3c3;
+
+   margin-left: 44%;
+   margin-top: 60px;
+   margin-bottom: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+
+.sign-up{
+    color: white;
+
+    margin-left: 48%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+.footer{
+    color: #d0c3c3;
+
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
+
+
+
+
+      /*responsive-375*/
+
+
+    @media screen and (min-width:375px) and (max-width:425px) {
+       .header{
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+ 
+        align-items: center;
+    }
+
+
+    .Spotify-Logo{
+     height: 40px;
+     width: 40px;
+
+     border-radius: 50%;
+    }
+
+
+    .text-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7%;
+
+    margin-top: 30px;
+}
+
+
+.email-label{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.email-input{
+    width: 315px;
+    height: 40px;
+    margin-top: 3px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    border-radius: 5px;
+
+    border: solid 1px #4c4a4a;
+    background-color: #121212;
+
+}
+
+
+.email-input:focus{
+    outline: none;
+}
+
+
+.email-input:hover{
+    border-color: white;
+    border-bottom-color: white;
+}
+
+
+.button-1{
+   margin-left: 7%;
+   width: 320px;
+   height: 50px;
+
+   border-radius: 50px;
+   border: 1px solid ;
+   background-color: #1ed760;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-size: 14.5px;
+
+   cursor: pointer;
+}
+
+
+.button-1:hover{
+    background-color: #3be477;
+
+    width: 325px;
+}
+
+
+.or{
+    color: white;
+    margin-left: 45%;
+    margin-top: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 14.5px;
+}
+
+
+.button-2{
+   margin-left: 7%;
+   width: 320px;
+   height: 50px;
+   margin-top: 15px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.button-2-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 20px;
+}
+
+
+.phone-Icon{
+    width: 25px;
+    height: 25px;
+
+    margin-right: 17px;
+
+    background-color:#121212 ;
+}
+
+
+.button-2:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+.button-3{
+   margin-left: 7%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-3-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: white;
+
+}
+
+
+.Google-Icon{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    left: 20px ;
+
+    background-color:#121212 ;
+}
+
+
+.button-3:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+.button-4{
+   margin-left: 7%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-4-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.Facebook-Icon{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    left: 20px;
+    position: absolute;
+}
+
+
+.button-4:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+
+
+
+.button-5{
+   margin-left: 7%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+.button-5-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    
+}
+
+
+.Apple-Icone{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.button-5:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+.p-tag{
+   color: #d0c3c3;
+
+   margin-left: 25%;
+   margin-top: 30px;
+   margin-bottom: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+
+.sign-up{
+    color: white;
+
+    margin-left: 40%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+.footer{
+    color: #d0c3c3;
+
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
+ }
+
+
+
+
+  /*responsive-425*/
+
+
+    @media screen and (min-width:425px) and (max-width:768px){
+       .header{
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+ 
+        align-items: center;
+    }
+
+
+    .Spotify-Logo{
+     height: 40px;
+     width: 40px;
+
+     border-radius: 50%;
+    }
+
+
+    .text-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+
+    margin-top: 30px;
+}
+
+
+.email-label{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.email-input{
+    width: 315px;
+    height: 40px;
+    margin-top: 3px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    border-radius: 5px;
+
+    border: solid 1px #4c4a4a;
+    background-color: #121212;
+
+}
+
+
+.email-input:focus{
+    outline: none;
+}
+
+
+.email-input:hover{
+    border-color: white;
+    border-bottom-color: white;
+}
+
+
+.button-1{
+   margin-left: 10%;
+   width: 320px;
+   height: 50px;
+
+   border-radius: 50px;
+   border: 1px solid ;
+   background-color: #1ed760;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-size: 14.5px;
+
+   cursor: pointer;
+}
+
+
+.button-1:hover{
+    background-color: #3be477;
+
+    width: 325px;
+}
+
+
+.or{
+    color: white;
+    margin-left: 47%;
+    margin-top: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 14.5px;
+}
+
+
+.button-2{
+   margin-left: 10%;
+   width: 320px;
+   height: 50px;
+   margin-top: 15px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.button-2-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 20px;
+}
+
+
+.phone-Icon{
+    width: 25px;
+    height: 25px;
+
+    margin-right: 17px;
+
+    background-color:#121212 ;
+}
+
+
+.button-2:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+.button-3{
+   margin-left: 10%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-3-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: white;
+
+}
+
+
+.Google-Icon{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    left: 20px ;
+
+    background-color:#121212 ;
+}
+
+
+.button-3:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+.button-4{
+   margin-left: 10%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-4-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.Facebook-Icon{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    left: 20px;
+    position: absolute;
+}
+
+
+.button-4:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+
+
+
+.button-5{
+   margin-left: 10%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+.button-5-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    
+}
+
+
+.Apple-Icone{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.button-5:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+.p-tag{
+   color: #d0c3c3;
+
+   margin-left: 30%;
+   margin-top: 30px;
+   margin-bottom: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+
+.sign-up{
+    color: white;
+
+    margin-left: 44%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+.footer{
+    color: #d0c3c3;
+
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
+ }
+
+
+
+
+ /*responsive-768*/
+
+
+    @media screen and (min-width:768px) and (max-width:1024){
+       .header{
+        width: 100%;
+        height: 50px;
+        margin-top: 96px;
+
+        display: flex;
+        justify-content: center;
+ 
+        align-items: center;
+    }
+
+
+    .Spotify-Logo{
+     height: 40px;
+     width: 40px;
+
+     border-radius: 50%;
+    }
+
+
+    .text-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 28%;
+
+    margin-top: 30px;
+}
+
+
+.email-label{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.email-input{
+    width: 315px;
+    height: 40px;
+    margin-top: 3px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    border-radius: 5px;
+
+    border: solid 1px #4c4a4a;
+    background-color: #121212;
+
+}
+
+
+.email-input:focus{
+    outline: none;
+}
+
+
+.email-input:hover{
+    border-color: white;
+    border-bottom-color: white;
+}
+
+
+.button-1{
+   margin-left: 28%;
+   width: 320px;
+   height: 50px;
+
+   border-radius: 50px;
+   border: 1px solid ;
+   background-color: #1ed760;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-size: 14.5px;
+
+   cursor: pointer;
+}
+
+
+.button-1:hover{
+    background-color: #3be477;
+
+    width: 325px;
+}
+
+
+.or{
+    color: white;
+    margin-left: 48%;
+    margin-top: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 14.5px;
+}
+
+
+.button-2{
+   margin-left: 28%;
+   width: 320px;
+   height: 50px;
+   margin-top: 15px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.button-2-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 20px;
+}
+
+
+.phone-Icon{
+    width: 25px;
+    height: 25px;
+
+    margin-right: 17px;
+
+    background-color:#121212 ;
+}
+
+
+.button-2:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+.button-3{
+   margin-left: 28%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-3-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: white;
+
+}
+
+
+.Google-Icon{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    left: 20px ;
+
+    background-color:#121212 ;
+}
+
+
+.button-3:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+.button-4{
+   margin-left: 28%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-4-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.Facebook-Icon{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    left: 20px;
+    position: absolute;
+}
+
+
+.button-4:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+
+
+
+.button-5{
+   margin-left: 28%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+.button-5-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    
+}
+
+
+.Apple-Icone{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.button-5:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+.p-tag{
+   color: #d0c3c3;
+
+   margin-left: 37%;
+   margin-top: 60px;
+   margin-bottom: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+
+.sign-up{
+    color: white;
+
+    margin-left: 44%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+.footer{
+    color: #d0c3c3;
+
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
+ }
+
+
+
+
+ /*responsive-1024*/
+
+
+    @media screen and (min-width:1024px) and (max-width:1440px){
+       .header{
+        width: 100%;
+        height: 50px;
+        margin-top: 96px;
+
+        display: flex;
+        justify-content: center;
+ 
+        align-items: center;
+    }
+
+
+    .Spotify-Logo{
+     height: 40px;
+     width: 40px;
+
+     border-radius: 50%;
+    }
+
+
+    .text-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-text{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 34%;
+
+    margin-top: 30px;
+}
+
+
+.email-label{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.email-input{
+    width: 315px;
+    height: 40px;
+    margin-top: 3px;
+
+    margin-bottom: 15px;
+
+    color: white;
+
+    border-radius: 5px;
+
+    border: solid 1px #4c4a4a;
+    background-color: #121212;
+
+}
+
+
+.email-input:focus{
+    outline: none;
+}
+
+
+.email-input:hover{
+    border-color: white;
+    border-bottom-color: white;
+}
+
+
+.button-1{
+   margin-left: 34%;
+   width: 320px;
+   height: 50px;
+
+   border-radius: 50px;
+   border: 1px solid ;
+   background-color: #1ed760;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: bold;
+   font-size: 14.5px;
+
+   cursor: pointer;
+}
+
+
+.button-1:hover{
+    background-color: #3be477;
+
+    width: 325px;
+}
+
+
+.or{
+    color: white;
+    margin-left: 49%;
+    margin-top: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 14.5px;
+}
+
+
+.button-2{
+   margin-left: 34%;
+   width: 320px;
+   height: 50px;
+   margin-top: 15px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.button-2-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 20px;
+}
+
+
+.phone-Icon{
+    width: 25px;
+    height: 25px;
+
+    margin-right: 17px;
+
+    background-color:#121212 ;
+}
+
+
+.button-2:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+.button-3{
+   margin-left: 34%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white; 
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-3-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: white;
+
+}
+
+
+.Google-Icon{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    left: 20px ;
+
+    background-color:#121212 ;
+}
+
+
+.button-3:hover{
+    border-color: white;
+    border-bottom-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+.button-4{
+   margin-left: 34%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   position: relative;
+
+   cursor: pointer;
+}
+
+
+.button-4-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+
+.Facebook-Icon{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    left: 20px;
+    position: absolute;
+}
+
+
+.button-4:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+
+
+
+.button-5{
+   margin-left: 34%;
+   width: 320px;
+   height: 50px;
+   margin-top: 6px;
+
+   border-radius: 50px;
+   border: 1px solid #4c4a4a ;
+   background-color: #121212;
+   color: white;   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+.button-5-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    
+}
+
+
+.Apple-Icone{
+    width: 25px;
+    height: 25px;
+
+
+    background-color:#121212 ;
+
+    position: absolute;
+    left: 20px;
+
+}
+
+
+.button-5:hover{
+    border-color: white;
+    border-bottom-color: white;
+
+    padding: 2px;
+}
+
+
+.p-tag{
+   color: #d0c3c3;
+
+   margin-left: 41%;
+   margin-top: 60px;
+   margin-bottom: 15px;
+
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-size: 15px;
+}
+
+
+.sign-up{
+    color: white;
+
+    margin-left: 47%;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+
+.footer{
+    color: #d0c3c3;
+
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+}
+ }
