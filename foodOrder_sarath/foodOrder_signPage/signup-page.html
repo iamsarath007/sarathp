@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NewTaste - Sign Up</title>
+  <link rel="stylesheet" href="./signup-page.css" />
+</head>
+<body>
+
+  <div class="signup-card">
+
+    <div class="brand-title">NewTaste</div>
+    <h1 class="form-title">Sign up</h1>
+
+    <!-- Global error and success message banner -->
+    <div id="error" class="error-msg"></div>
+
+    <form id="signupForm" action="#" method="POST" novalidate>
+      <div class="form-group">
+        <input type="text" id="fullname" class="input-field" placeholder="Full Name" />
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" class="input-field" placeholder="Email" />
+      </div>
+
+      <div class="form-group">
+        <input type="tel" id="phone" class="input-field" placeholder="Phone Number" />
+      </div>
+
+      <div class="form-group">
+        <input type="password" id="password" class="input-field" placeholder="Password" />
+      </div>
+
+      <div class="form-group">
+        <input type="password" id="confirmPassword" class="input-field" placeholder="Confirm password" />
+      </div>
+
+      <button type="submit" class="btn-submit">Sign up</button>
+    </form>
+
+    <p class="footer-text">
+      Already have an account? <a href="./login-page.html">Login</a>
+    </p>
+  </div>
+
+  <script src="./signup-page.js"></script>
+</body>
+</html>
